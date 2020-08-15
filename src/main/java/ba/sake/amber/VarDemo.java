@@ -24,6 +24,6 @@ public class VarDemo {
 }
 
 // example..
-@Target({ElementType.TYPE_USE, ElementType.TYPE_PARAMETER})
+@Target({ElementType.TYPE_USE, ElementType.PARAMETER})
 @interface NotNull {
 }
