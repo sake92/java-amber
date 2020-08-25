@@ -1,13 +1,20 @@
 package ba.sake.amber;
 
+import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.Random;
 
+/**
+ * - if <code>instanceof</code> test succeeds it binds a new variable in that scope <br>
+ * - variable is bound after <code>&&</code> also
+ */
 public class InstanceOfDemo {
 
     public static void main(String[] args) {
+
+        URLConnection.guessContentTypeFromName("");
 
         // using random to trick Intellij's smartness
         var rand = new Random();

@@ -4,6 +4,13 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 import java.util.Comparator;
 
+/**
+ * - type is inferred! <br>
+ * - local only: in method or in constructor! <br>
+ * - <code>var</code> is a reserved type name <br>
+ * - can be used in lambdas (for consistency) <br>
+ * - public API is intact: fields and methods
+ */
 public class VarDemo {
 
     public static void main(String[] args) {

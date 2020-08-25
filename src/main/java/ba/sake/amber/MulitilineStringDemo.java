@@ -1,5 +1,10 @@
 package ba.sake.amber;
 
+/**
+ * - cut on lowest number of spaces <br>
+ * - use <code>\</code> to concatenate lines <br>
+ * - use <code>\s</code> to preserve trailing spaces
+ */
 public class MulitilineStringDemo {
 
     public static void main(String[] args) {

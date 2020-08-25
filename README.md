@@ -1,4 +1,8 @@
 
+Code for my presentation:  
+https://sake.ba/presentations/2020-09-09%20Amber%20-%20JUGBA/#/
+
+
 Download [CFR decompiler](https://www.benf.org/other/cfr/) to see what's under the hood!
 
 ## Vars

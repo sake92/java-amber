@@ -11,6 +11,12 @@ public class SwitchDemo {
 //      switchExpressionExhaustive();
     }
 
+    /**
+     * - missing break? <br>
+     * - missing default? <br>
+     * - forgot to assign in one case? <br>
+     * - cant use same var name in 2 cases... :/
+     */
     private static void switchStatement() {
         int num = 2 + 2;
         switch (num) {
@@ -25,6 +31,10 @@ public class SwitchDemo {
     }
 
 
+    /**
+     * - Single expression is returned <br>
+     * - If multiple statements, use <code>yield</code>
+     */
     private static void switchExpression() {
         DayOfWeek day = DayOfWeek.THURSDAY;
         int j = switch (day) {
@@ -38,11 +48,15 @@ public class SwitchDemo {
         System.out.println(j);
     }
 
-    /* Exhaustiveness checked by compiler :) */
+
+    //////////
     enum Bool {
         TRUE, FALSE
     }
 
+    /**
+     * Exhaustiveness checked by compiler :)
+     */
     private static void switchExpressionExhaustive() {
         var bool = Bool.valueOf("TRUE");
         var b = switch (bool) {

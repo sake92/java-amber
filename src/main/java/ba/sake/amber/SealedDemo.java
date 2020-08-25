@@ -25,11 +25,11 @@ public class SealedDemo {
                 System.out.println("Rectangle: " + r);
             else if (shape instanceof Square s)
                 System.out.println("Square: " + s);
-            else
+            else // TODO implement reachability/exhaustiveness
                 throw new IllegalStateException("Impossible!");
         });
 
-        
+
         // var adHoc = new Shape(){}; // nope!
         // shapes.add(adHoc);
     }
