@@ -29,7 +29,7 @@ public class InstanceOfDemo {
         Collection<String> coll = rand.nextBoolean() ? new ArrayList<>() : new LinkedList<>();
         coll.add("whatever");
 
-        if (coll instanceof ArrayList<?> list && list.size() == 1) {
+        if (coll instanceof ArrayList<?> list && !list.contains("") && list.size() == 1) {
             Object o = list.get(0); // works (compiles)
             System.out.println(o);
         }
