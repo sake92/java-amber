@@ -1,4 +1,4 @@
-package ba.sake.amber;
+package ba.sake.amber.instance_of;
 
 import java.util.ArrayList;
 import java.util.Collection;

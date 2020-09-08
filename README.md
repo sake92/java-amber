@@ -5,6 +5,8 @@ https://sake.ba/presentations/2020-09-09%20Amber%20-%20JUGBA/#/
 
 Download [CFR decompiler](https://www.benf.org/other/cfr/) to see what's under the hood!
 
+`tree /F out/production/classes`
+
 ## Vars
 ```bash
 java -jar cfr-0.150.jar out\production\classes\ba\sake\amber\VarDemo.class

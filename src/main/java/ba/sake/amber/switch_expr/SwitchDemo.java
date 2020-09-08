@@ -1,4 +1,4 @@
-package ba.sake.amber;
+package ba.sake.amber.switch_expr;
 
 import java.time.DayOfWeek;
 

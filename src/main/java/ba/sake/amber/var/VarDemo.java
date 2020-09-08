@@ -1,4 +1,4 @@
-package ba.sake.amber;
+package ba.sake.amber.var;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;

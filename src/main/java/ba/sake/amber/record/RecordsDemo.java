@@ -1,11 +1,4 @@
-package ba.sake.amber;
-
-/**
- * - final class<br>
- * - free: accessors, toString(), equals()+hashCode()<br>
- * - must use primary constructor -> "constructor chaining", a recommended practice
- */
-record Person(String name, int age) {}
+package ba.sake.amber.record;
 
 public class RecordsDemo {
 
@@ -22,7 +15,7 @@ public class RecordsDemo {
 
         System.out.printf("%s ima %d godina.%n", p1.name(), p1.age());
 
-        //new Person("Neko", 13);
+        // record Helper(Person p) {}
     }
 }
 

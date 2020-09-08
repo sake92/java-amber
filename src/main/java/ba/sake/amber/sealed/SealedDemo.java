@@ -1,14 +1,6 @@
-package ba.sake.amber;
+package ba.sake.amber.sealed;
 
 import java.util.ArrayList;
-
-sealed class Shape {}
-
-final class Circle extends Shape {}
-
-final class Rectangle extends Shape {}
-
-final class Square extends Shape {}
 
 public class SealedDemo {
     public static void main(String[] args) {
@@ -35,12 +27,3 @@ public class SealedDemo {
     }
 
 }
-
-// beautiful!
-sealed interface Shape2 {}
-
-record Circle2() implements Shape2 {}
-
-record Rectangle2() implements Shape2 {}
-
-record Square2() implements Shape2 {}

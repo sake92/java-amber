@@ -1,4 +1,4 @@
-package ba.sake.amber;
+package ba.sake.amber.text_block;
 
 /**
  * - cut on lowest number of spaces <br>
