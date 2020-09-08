@@ -1,6 +1,5 @@
 package ba.sake.amber;
 
-import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.LinkedList;
@@ -13,8 +12,6 @@ import java.util.Random;
 public class InstanceOfDemo {
 
     public static void main(String[] args) {
-
-        URLConnection.guessContentTypeFromName("");
 
         // using random to trick Intellij's smartness
         var rand = new Random();
@@ -40,5 +37,9 @@ public class InstanceOfDemo {
         if (coll instanceof ArrayList<?> list || coll.size() > 5) {
             // list.get(0); // nope
         }
+
+        // lambdas also!
+        coll.removeIf(str -> str instanceof String s
+                && s.equals(""));
     }
 }
