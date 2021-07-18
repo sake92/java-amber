@@ -5,7 +5,7 @@ package ba.sake.amber.text_block;
  * - use <code>\</code> to concatenate lines <br>
  * - use <code>\s</code> to preserve trailing spaces
  */
-public class MulitilineStringDemo {
+public class MultilineStringDemo {
 
     public static void main(String[] args) {
 

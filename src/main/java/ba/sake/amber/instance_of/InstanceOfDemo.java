@@ -1,9 +1,6 @@
 package ba.sake.amber.instance_of;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.Random;
+import java.util.*;
 
 /**
  * - if <code>instanceof</code> test succeeds it binds a new variable in that scope <br>
@@ -39,7 +36,8 @@ public class InstanceOfDemo {
         }
 
         // lambdas also!
-        coll.removeIf(str -> str instanceof String s
-                && s.equals(""));
+        var nums = new ArrayList<Number>();
+        nums.removeIf(num -> num instanceof Long integer
+                && integer.equals(1L));
     }
 }

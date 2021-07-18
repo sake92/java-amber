@@ -16,6 +16,7 @@ public class VarDemo {
 
     public static void main(String[] args) {
 
+        // not recommended for simple types like int/String etc
         var str = "abc";
         System.out.println(str);
 
